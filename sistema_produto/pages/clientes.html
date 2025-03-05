@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+    <link rel="stylesheet" href="../css/global.css">
+</head>
+<body >
+    <div class="Card">
+    <a class="icon-retorn" href="../dashboard.html">Voltar ao Dashboard</a>
+    <h1 class="CardHeader">Gerenciamento de Clientes</h1>
+   
+    <form class="CardBody">
+
+        <div class="FormGroup">
+            <input type="text" id="nome" placeholder="Nome do Cliente">
+            <input type="text" id="telefone" placeholder="Telefone">
+            <input type="email" id="email" placeholder="E-mail">
+        </div>
+       
+        <div>
+            <button class="btn" id="adicionarButton" onclick="adicionarCliente()">Adicionar</button>
+        </div>
+
+    </form>
+
+    <br/>
+    <h1 class="CardHeader">Lista de Clientes</h1>
+    <table class="CardBody ">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>E-mail</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="clientes-lista"></tbody>
+    </table>
+    <script src="../js/cliente.js"></script>
+</div>
+</body>
+</html>

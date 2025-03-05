@@ -1,0 +1,89 @@
+{
+  "usuarios": [
+    {
+      "email": "adm@adm.com.br",
+      "senha": "adm123",
+      "tipo": "admin",
+      "id": "272f"
+    },
+    {
+      "email": "funcionario@funcionario.com.br",
+      "senha": "funcionario123",
+      "tipo": "funcionario",
+      "id": "701c"
+    },
+    {
+      "email": "cliente@cliente.com",
+      "senha": "cliente123",
+      "tipo": "cliente",
+      "id": "6937"
+    }
+  ],
+  "categorias": [
+    {
+      "nome": "Eletrônicos",
+      "descricao": "Produtos relacionados a tecnologia e gadgets.",
+      "id": "1"
+    },
+    {
+      "nome": "Bebidas",
+      "descricao": "Qualquer uma bebida não alcoólica ",
+      "id": "2"
+    },
+    {
+      "nome": "Bebida alcoólicas",
+      "descricao": "Qualquer uma bebida alcoólica",
+      "id": "2c97"
+    }
+  ],
+  "clientes": [
+    {
+      "nome": "José Marques",
+      "telefone": "81995566888",
+      "email": "jose@gmail.com",
+      "id": "8"
+    },
+    {
+      "id": "9",
+      "nome": "Monique Lima",
+      "telefone": "81999887766",
+      "email": "Monique@gmail.com"
+    },
+    {
+      "nome": "Carlos Botelho",
+      "telefone": "81977885544",
+      "email": "carlos@gmail.com",
+      "id": "10"
+    }
+  ],
+  "produtos": [
+    {
+      "categoria": "Eletrônicos",
+      "nome": "Smartphone XYZ",
+      "valor": "1200.00",
+      "quantidade": "10",
+      "id": "43fa"
+    },
+    {
+      "categoria": "Alimentos",
+      "nome": "Café Premium",
+      "valor": "19.99",
+      "quantidade": "100",
+      "id": "97a2"
+    }
+  ],
+  "reservas": [
+    {
+      "categoria": "Eletrônicos",
+      "produto": "Smartphone XYZ",
+      "quantidade": "2",
+      "id": "13c6"
+    },
+    {
+      "categoria": "Alimentos",
+      "produto": "Café Premium",
+      "quantidade": "5",
+      "id": "d5c0"
+    }
+  ]
+}

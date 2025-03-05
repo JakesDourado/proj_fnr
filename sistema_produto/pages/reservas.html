@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="stylesheet" href="../css/global.css">
+</head>
+<body>
+    <h1>Reservar Produtos</h1>
+    <a href="../dashboard.html">Voltar ao Dashboard</a>
+    <div>
+        <select id="categoria"></select>
+        <select id="produto"></select>
+        <input type="number" id="quantidade" placeholder="Quantidade">
+        <button onclick="reservarProduto()">Reservar</button>
+    </div>
+    <h2>Produtos Reservados</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="reservas-lista"></tbody>
+    </table>
+    <script src="../js/reserva.js"></script>
+</body>
+</html>
