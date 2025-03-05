@@ -16,15 +16,33 @@
         <button onclick="reservarProduto()">Reservar</button>
     </div>
     <h2>Produtos Reservados</h2>
-    <table>
+    <table id="lista-produtos">
         <thead>
             <tr>
-                <th>Produto</th>
+                <th>Nome</th>
+                <th>Valor</th>
                 <th>Quantidade</th>
+                <th>Categoria</th>
                 <th>Ações</th>
             </tr>
         </thead>
-        <tbody id="reservas-lista"></tbody>
+        <tbody>
+            <!-- Produtos serão inseridos aqui pelo JS -->
+        </tbody>
+    </table>
+    
+    <table id="lista-reservas">
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Cliente</th>
+                <th>Quantidade</th>
+                <th>Data da Reserva</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Reservas serão inseridas aqui pelo JS -->
+        </tbody>
     </table>
     <script src="../js/reserva.js"></script>
 </body>
